@@ -1,0 +1,9 @@
+# include vendor/*  #include vendored dependencies: http://docs.cloudfoundry.org/buildpacks/python/#vendoring
+graft wheelhouse
+include *.yml  
+include *.py 
+# include Procfile  
+include README.md 
+include *.txt  
+global-include *.cfg  
+global-exclude .xmake.cfg

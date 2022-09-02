@@ -1,0 +1,20 @@
+{
+    "deeppavlov_models":
+    {
+        "tar_name": "deeppavlov_models.tar.gz",
+        "path": "{HOME_DIR}/.deeppavlov",
+        "absolute_path": null
+    },
+    "nltk_data": 
+    {
+        "tar_name": "nltk_data.tar.gz",
+        "path": "{HOME_DIR}/nltk_data",
+        "absolute_path": null
+    },
+    "spacy_model":
+    {
+        "tar_name": "en_core_web_lg-2.2.5.tar.gz",
+        "path": "{HOME_DIR}/spacy_model",
+        "absolute_path": null
+    }
+}

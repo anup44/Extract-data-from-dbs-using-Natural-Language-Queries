@@ -1,0 +1,6 @@
+applications:
+- name: DHS_demo
+  memory: 6144M
+  disk_quota: 4G
+  command: ./app_v2/start_app.sh
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git

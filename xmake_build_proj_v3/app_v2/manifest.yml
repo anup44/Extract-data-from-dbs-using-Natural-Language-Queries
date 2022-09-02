@@ -1,0 +1,7 @@
+applications:
+- name: DHS_demo
+  host: DHS_demo
+  path: .
+  memory: 10G
+  disk_quota: 10G
+  command: ./start_app_xs.sh
